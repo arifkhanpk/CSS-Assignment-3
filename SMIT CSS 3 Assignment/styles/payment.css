@@ -1,0 +1,632 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h1 {
+    font-size: 26px;
+   
+}
+
+.nav-heading {
+    position: relative;
+    left: 40px;
+    color: blue;
+    margin-right: 50px;
+}
+
+.nav-content {
+    display: flex;
+    position: relative;
+    right: 40px;
+    margin-top: 30px;
+    
+    justify-content: right;
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: blue;
+
+    font-weight: 700;
+
+    margin-left: 15px;
+    padding: 10px 20px;
+}
+
+
+ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+
+}
+
+ul>li {
+    list-style: none;
+    
+}
+
+
+.main-container{
+    background-color: #f0f2f5ea;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    width: 1130px;
+    
+}
+.child-container{
+    width: 700px;
+
+}
+.billing{
+    border-radius: 5px;
+    background-color: white;
+    width: 700px;
+    padding: 15px;
+}
+.h-5{
+    font-size: medium;
+letter-spacing: -1px;
+}
+.p-1{
+    font-size: x-small;
+    color: rgb(170, 169, 169);
+    margin:-9px -4px;
+}
+.p-2{
+    text-align: right;
+    font-size: x-small;
+    color: rgb(170, 169, 169);
+    margin-top: -35px;
+}
+.address-city{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    font-size: small;
+}
+.input{
+width: 325px; 
+height: 35px;
+border-radius: 5px;
+border: none;
+outline: none;
+padding: 5px 20px;
+font-size: x-small;
+background-color: var(--lighting-color);
+color: rgb(202, 199, 199);
+}
+.rental-info{
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    width: 700px;
+    padding: 15px;
+}
+.pick-up{
+    font-size: small;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
+.name-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+.seles{
+    display: flex;
+    justify-content:space-between ;
+width: 325px;
+border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 240, 240);
+    color: rgb(202, 199, 199);
+    padding: 2px 20px;
+}
+.inpu{
+    width:280px; 
+    height: 35px;
+   border-radius: 5px;
+    border: none;
+    outline: none;
+    
+    font-size: x-small;
+    background-color: var(--lighting-color);
+    color: rgb(202, 199, 199);
+}
+.h-6{
+    margin-top: -30px;
+}
+.sele{
+    border: none;
+    outline: none;
+    background-color: rgb(241, 240, 240);
+    border-radius: 5px;
+    color: rgb(172, 170, 170);
+    width: 40px;
+}
+.radio-1{
+    margin-top: 30px;
+}
+.payment-method{
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    width: 700px;
+    padding: 15px;
+}
+.card-detail{
+    padding: 15px 20px;
+    background-color: var(--lighting-color);
+    width: 660px;
+    border-radius: 5px;
+}
+.visa{
+    display: flex;
+    justify-content: space-between;
+}
+.visa-img{
+    width: 90px;
+    background-color: var(--lighting-color);
+    border-radius: 10px;
+}
+.address-city-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;;
+}
+.input-1{
+    width: 300px; 
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    font-size: x-small;
+    background-color: white;
+    color: rgb(202, 199, 199);
+    }
+.account{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--lighting-color);
+    align-items: center;
+    width: 660px;
+    margin-top: 20px;
+    padding: 15px 20px;
+} 
+.pay{
+    width: 68px;
+    display: flex;
+    justify-content: space-between;
+}  
+.PayPal{
+font-size: small;
+font-weight: 700;
+} 
+.pay-pal{
+    width: 80px;
+}
+
+.account-1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--lighting-color);
+    align-items: center;
+    width: 660px;
+    margin-top: 20px;
+    padding: 5px 20px;
+} 
+.bit-coin{
+    width: 80px;
+}
+.confirmation{
+    
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 20px;
+        width: 700px;
+        padding: 15px;
+   
+}
+.h-3{
+font-weight: 650;
+}
+.read{
+    width: 660px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px;
+    background-color: var(--lighting-color);
+}
+.Bitcoin{
+    font-size: small;
+    font-weight: 700;
+}
+.privacy{
+    width: 660px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+    gap: 20px;
+    background-color: var(--lighting-color);
+}
+.rent{
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: rgb(63, 93, 226);
+    color: white;
+}
+.now{
+    color: white;
+    text-decoration: none;
+    font-weight: 450;
+}
+.h-4{
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+.p-4{
+    margin-left: -25px;
+    margin-top: -25px;
+    font-size: small;
+    color: rgb(172, 170, 170);
+}
+.mini-container{
+    width: 370px;
+}
+.rental-summary{
+    width: 370px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(179, 178, 178);
+}
+
+.h-4-1{
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+.nissan-review{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    align-items: center;
+}
+.nissan-car{
+    width: 100px;
+    height: 80px;
+    padding: 25px 10px;
+    background-color: rgb(38, 122, 247);
+    border-radius: 5px;
+}
+.nisan-car{
+width: 80px;
+}
+.h-4-2{
+    color: black;
+    font-weight: 700;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(250, 245, 245);
+    margin-top: 25px;
+    padding: 30px 0px;
+    font-size: 15px;
+}
+.dollar{
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    
+   margin-top: -20px;
+    font-size: 15px;
+}
+.apply{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--lighting-color);
+    margin: 20px 0px;
+    padding: 10px 20px;
+}
+.nows{
+    color: black;
+    font-weight: 620;
+    font-size: small;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+.h-5-1{
+    color: black;
+    letter-spacing: -1px;
+    font-size: large;
+    font-weight: 650px;
+}
+
+
+
+@media only screen and (max-width: 1140px) {
+    .container {
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .container {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .container {
+        grid-template-columns: repeat(1, 350px);
+        padding: 10px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card-icons{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .mobile-set {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.cont {
+    display: flex;
+           gap: 10px;
+    padding: 20px 0;
+}
+
+.child {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-right: 1px solid rgb(56, 52, 52);
+}
+
+.child:nth-last-child(1) {
+    border: none;
+}
+
+
+
+
+.footer {
+
+height: 350px;
+   width: 100%;
+position: relative;
+bottom: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.footer-child1 {
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+padding-left: 50px;
+
+
+}
+
+.footer-gchild1 {
+width: 25%;
+margin-top: 150px;
+}
+
+.footer-gchild2 {
+width: 50%;
+display: grid;
+grid-template-columns: auto auto auto;
+
+
+
+}
+
+.footer-subheading {
+margin-bottom: 20px;
+font-family: sans-serif;
+margin-top: 150px;
+}
+
+.footer-content {
+margin-bottom: 15px;
+color: rgb(46, 46, 46);
+font-size: 18px;
+font-family: sans-serif;
+
+
+}
+
+.footer-heading {
+font-size: 40px;
+color: blue;
+font-family: sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 30px;
+
+
+}
+
+.footer-subheading {
+font-size: 25px;
+
+}
+
+hr {
+height: 1px;
+color: grey;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 50px;
+}
+
+.footer-child2 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 25px;
+font-family: sans-serif;
+
+
+}
+
+.pr-tc {
+display: flex;
+gap: 25px;
+
+}
+
+
+@media only screen and (max-width: 850px) {
+.footer-gchild2 {
+    grid-template-columns: auto auto;
+}
+
+.footer {
+    height: 450px;
+}
+
+.footer-subheading {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.footer-content {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.footer-child1 {
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.footer-gchild2 {
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    width: 100%;
+    padding-right: 12px;
+}
+
+.footer-para {
+    width: 50vh;
+}
+
+.footer {
+    height: 430px;
+}
+
+.footer-child2 {
+    flex-direction: column-reverse;
+    gap: 10px;
+
+
+}
+
+.footer-heading {
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.footer-list {
+    gap: 30px;
+}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+.footer {
+    height: 420px;
+}
+
+.footer-content {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.footer-para {
+    width: 30vh;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.footer {
+    height: 540px;
+}
+
+.footer-content {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.footer-gchild2 {
+    grid-template-columns: auto auto;
+    gap: 25px;
+    width: 100%;
+    padding-right: 12px;
+}
+} 
+
+
+
+
+
+
